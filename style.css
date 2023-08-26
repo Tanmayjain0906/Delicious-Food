@@ -282,3 +282,27 @@ hr {
 .add-icon button:hover {
     transform: scale(1.05);
 }
+
+@media (max-width:1800px) {
+    
+    .card-holder
+    {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width:1550px) {
+    
+    .card-holder
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:1200px) {
+    
+    .card-holder
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
