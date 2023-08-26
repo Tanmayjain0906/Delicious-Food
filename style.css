@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,200&family=Poppins:wght@100;200;300&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #111315;
+    font-family: 'Anton', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.my-nav {
+    display: flex;
+    position: fixed;
+    left: 550px;
+    top: 15px;
+    justify-content: space-between;
+    width: calc(100% - 580px);
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #272A30;
+    padding: 10px;
+    width: 45vw;
+}
+
+.search-box input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    color: white;
+}
+
+.btn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 5px;
+    width: 13vw;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+
+/* --------sidebar--------- */
+
+.side-bar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 520px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.restaurant-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 30px;
+    
+    margin-left: 50px;
+}
+
+.restaurant-logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.restaurant-logo a:hover
+{
+  color: red;
+}
+
+.restaurant-logo p
+{
+    color: red;
+    font-size: 20px;  
+}
+
+hr
+{
+    border: 1px solid rgb(74, 75, 74)
+}
+
+.links
+{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-self: center;
+  align-self: center;
+  margin-right: 90px;
+  margin-top: 10px;
+}
+
+.quick h3
+{
+    color: white;
+    align-self: center;
+    font-size: 25px;
+}
+
+.order-list ol li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+.order-list ol li a:hover
+{
+    color: red;
+}
+
+.order-list ol
+{
+    color: white;
+}
+
+
+.more h3
+{
+    color: white;
+    align-self: center;
+    font-size: 25px;
+}
+
+.about-list ol li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+.about-list ol li a:hover
+{
+    color: red;
+}
+
+.about-list ol
+{
+    color: white;
+}
+
+.quick, .more
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+/* ----------main-container------- */
+
+.main-container
+{
+  position: fixed;
+  left: 550px;
+  top: 85px;
+  width: calc(100% - 580px);
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: auto;
+  padding-left: 5px;
+}
+
+.main-container::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+.banner img
+{
+    width: calc(100vw - 580px);
+}
+
+.hide
+{
+    display: none;
+}
+
+.enable
+{
+    display: block;
+}
+
+.card-container h3
+{
+    color: white;
+    font-size: 30px;
+}
+
+.card-container
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-holder
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card
+{
+    background-color: #272A30;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.card:hover
+{
+    transform: scale(1.03);
+}
+
+.upper img
+{
+    width: 100%;
+}
+
+.lower
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-price
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.name-price p
+{
+    color: white;
+    font-size: 15px;
+}
+
+.add-icon button
+{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 40px;
+  border-radius: 10px;
+  background-color: #40444c;
+  border: none;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.281);
+  transition: 0.5s;
+}
+
+.add-icon button:hover
+{
+    transform: scale(1.05);
+}
