@@ -355,3 +355,69 @@ hr {
         width: 100%;
     }
 }
+
+
+.modal {
+    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(75, 74, 74, 0.438);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-container
+{
+    background-color: white;
+
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+form input
+{
+    padding: 5px;
+    outline: 0;
+    border: 1 px solid rgba(128, 128, 128, 0.411);
+    border-radius: 5px;
+}
+
+
+form button
+{
+    padding: 5px 10px;
+    background-color: aqua;
+    border: none;
+    transition: 0.5s;
+}
+
+form button:hover
+{
+    transform: scale(1.05);
+}
+
+.cancel-btn
+{
+    width: 100%;
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+}
+
+.cancel-btn:hover
+{
+    transform: scale(1.05);
+}
