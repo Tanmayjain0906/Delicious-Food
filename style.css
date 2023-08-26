@@ -226,6 +226,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    
 }
 
 .card {
@@ -236,6 +237,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -304,5 +306,52 @@ hr {
     .card-holder
     {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 850px) {
+    
+    .side-bar
+    {
+        display: none;
+    }
+
+    .my-nav
+    {
+        left: 0;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .btn
+    {
+        display: none;
+        
+    }
+
+    .main-container
+    {
+        left: 0;
+        width: 100%;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 0px;
+    }
+    
+    .search-box
+    {
+        width: 80%;
+    }
+
+    .icon
+    {
+        margin-right: 15px;
+    }
+
+    .banner img
+    {
+        width: 100%;
     }
 }
