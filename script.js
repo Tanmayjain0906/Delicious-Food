@@ -85,7 +85,7 @@ function takeOrder(e) {
 
     <form>
         <label for="payment">Pay Your Amount</label>
-        <input type="number" id="amount" placeholder="$${amount}/- Your Payble Amount" required>
+        <input type="number" id="amount" placeholder="$${amount}/- Your Payble Amount" step="any" required>
         <button class="pay-btn">Pay</button>
     </form>
     <button class="cancel-btn">Cancel</button>
