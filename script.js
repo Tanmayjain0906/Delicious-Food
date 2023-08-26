@@ -99,7 +99,7 @@ function takeOrder(e) {
 
         if (a == false) {
             modal.style.display = "none";
-            alert(`Please Select Your Meal`);
+            alert(`Oops Payment was not made, We have Many varieties. Please Select another food.`);
         }
 
        
