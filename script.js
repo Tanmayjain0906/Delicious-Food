@@ -126,7 +126,7 @@ function OrderPrep(id)
     let idName = localArr[id - 1].name;
     
     setTimeout(() => {
-        let a = alert(`Thanks for choosing ${idName}. Your Payment was accepted. Your order is start preparing`);
+        let a = alert(`Thanks for choosing ${idName}. Your Payment was accepted. Your order is start preparing.`);
         
         if(a==undefined)
         {
